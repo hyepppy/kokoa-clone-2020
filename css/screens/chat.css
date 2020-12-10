@@ -187,7 +187,7 @@
   opacity: 0;
 }
 
-input:focus {
+.reply__column input:focus {
   width: 98vw;
   transform: translateX(-13%) translateY(-80px);
 }
