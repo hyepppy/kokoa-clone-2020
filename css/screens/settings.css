@@ -1,0 +1,37 @@
+.settings__setting {
+  padding: 25px 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 22px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting i {
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+.settings__setting-column2 {
+  opacity: 0.5;
+}
+
+.settings__setting-column {
+  position: relative;
+}
+.new {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  color: white;
+  position: absolute;
+  right: -27px;
+  bottom: 0px;
+}

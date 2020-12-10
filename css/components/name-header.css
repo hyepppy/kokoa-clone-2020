@@ -1,0 +1,31 @@
+.name-header {
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-header__title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.name-header__column {
+  width: 33%;
+}
+
+.name-header__column:first-child span {
+  margin-right: 5px;
+}
+
+.name-header__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.name-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

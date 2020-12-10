@@ -28,3 +28,31 @@
   justify-content: space-between;
   color: rgba(0, 0, 0, 0.5);
 }
+
+.friends-icon i {
+  margin-bottom: 20px;
+}
+
+@keyframes first-splash {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 130px;
+  animation: first-splash 0.3s ease-in forwards;
+  animation-delay: 2s;
+}
