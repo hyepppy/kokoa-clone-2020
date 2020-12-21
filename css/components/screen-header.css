@@ -7,12 +7,13 @@
 }
 
 .screen-header__title {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 600;
 }
 
 .screen-header__icons span {
-  margin-left: 25px;
+  margin-left: 15px;
+  font-size: 19px;
 }
 
 @keyframes rotate-cog {

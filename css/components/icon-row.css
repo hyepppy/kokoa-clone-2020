@@ -4,18 +4,24 @@
 }
 
 .icon-row__icon {
+  height: 90px;
+  width: 90px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.icon-row__icon span {
+  margin-bottom: 5px;
+}
+
 .icon-row__icon i {
-  font-size: 35px;
+  font-size: 30px;
   color: var(--gray);
 }
 
 .icon-row__icon__text {
-  margin-top: 20px;
+  margin-top: 18px;
   width: 50px;
   font-size: 17px;
   height: 15px;
